@@ -24,20 +24,29 @@ P3-Laboratorios/
 │   ├── Exemplo01-Override/
 │   └── Exemplo02-Heranca/
 │
-├── lista1/
-│   └── Exercicio01-Aluno/
+├── Lista1/
 │
-├── lista2/
-│   └── Exercicio01-Pessoa/
+├── Lista2/
 │
 └── README.md
 ```
 
-## 📚 Convenções
-### Pacotes
-  - `entidades` → classes principais.
-  - `main` → código de teste e execução.
-### Nomenclatura
+## 📚 Estrutura de Projectos
+```bash
+Lista1/
+│
+├── exercicio1/
+│   └── Aluno.java
+├── exercicio2/
+│   └──  Televisor.java
+├── main/
+│   └──  Main.java
+└── testes
+    ├── Exercicio1.java
+    └── Exercicio2.java
+```
+
+## Nomenclatura
 | Tipo           | Padrão             | Exemplo                             |
 | -------------- | ------------------ | ----------------------------------- |
 | **Pacotes**    | `lowercase`        | `main`, `entidades`                 |
