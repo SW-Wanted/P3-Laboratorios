@@ -1,0 +1,17 @@
+*.class
+*.log
+*.bak
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+build/
+dist/
+nbproject/private/
+/lista1/Ex01-Aluno/nbproject/private/
+/exemplos/Ex02-Heranca/nbproject/private/
+/exemplos/Exemplo02-Heranca/nbproject/private/
+/lista1/Exercicio01-Aluno/nbproject/private/
+/exemplos/OverRide/nbproject/private/
+/exemplos/Exemplo01-Override/nbproject/private/
+/lista2/Exercicio01-Pessoa/nbproject/private/
