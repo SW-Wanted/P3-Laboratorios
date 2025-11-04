@@ -24,14 +24,27 @@ P3-Laboratorios/
 │   ├── Exemplo01-Override/
 │   └── Exemplo02-Heranca/
 │
-├── Lista1/
-│
-├── Lista2/
+├── exercicios/
+│   └── Lista1/
 │
 └── README.md
 ```
 
 ## 📚 Estrutura de Projectos
+Ao criar um novo projeto em Java, recomenda-se seguir uma convenção de organização que facilite a leitura, manutenção e testes dos exercícios. A estrutura sugerida é a seguinte:
+## Projeto
+- Nome do projeto: `Lista[n]`
+    - Cada projeto representa uma lista de exercícios, e `n` indica a sequência da lista.
+## Pacotes
+- Nome do pacote: `exercicio[n]`
+    - `n` indica o número do exercício correspondente.
+    - Cada classe do exercício deve estar neste pacote.
+- Nome do pacote: `main`
+    - Contém o menu interativo para testar todos os exercícios da lista.
+- Nome do pacote: `testes`
+    - Contém classes de teste para cada exercicio
+### Exemplo
+
 ```bash
 Lista1/
 │
