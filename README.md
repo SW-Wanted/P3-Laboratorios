@@ -25,7 +25,10 @@ P3-Laboratorios/
 │   └── Exemplo02-Heranca/
 │
 ├── exercicios/
-│   └── Lista1/
+│   ├── Lista1/
+│   │   ├── 1. exercicio1
+│   │   └── 2. exercicio2
+│   └── Lista2/
 │
 └── README.md
 ```
