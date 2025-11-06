@@ -27,7 +27,8 @@ P3-Laboratorios/
 ├── exercicios/
 │   ├── Lista1/
 │   │   ├── 1. exercicio1
-│   │   └── 2. exercicio2
+│   │   ├── 2. exercicio2
+│   │   └── 3. exercicio3
 │   └── Lista2/
 │
 └── README.md
