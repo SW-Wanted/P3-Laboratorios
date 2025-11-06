@@ -1,7 +1,7 @@
 # Programação 3 - Laboratórios
 
-
 ## 🧩 Estrutura do Repositório
+
 ```bash
 P3-Laboratorios/
 │
@@ -26,27 +26,34 @@ P3-Laboratorios/
 │
 ├── exercicios/
 │   ├── Lista1/
-│   │   ├── 1. exercicio1
-│   │   ├── 2. exercicio2
-│   │   └── 3. exercicio3
+│   │   ├── exercicio1
+│   │   ├── exercicio2
+│   │   ├── exercicio3
+│   │   └── exercicio4
 │   └── Lista2/
 │
 └── README.md
 ```
 
 ## 📚 Estrutura de Projectos
+
 Ao criar um novo projeto em Java, recomenda-se seguir uma convenção de organização que facilite a leitura, manutenção e testes dos exercícios. A estrutura sugerida é a seguinte:
+
 ## Projeto
+
 - Nome do projeto: `Lista[n]`
-    - Cada projeto representa uma lista de exercícios, e `n` indica a sequência da lista.
+  - Cada projeto representa uma lista de exercícios, e `n` indica a sequência da lista.
+
 ## Pacotes
+
 - Nome do pacote: `exercicio[n]`
-    - `n` indica o número do exercício correspondente.
-    - Cada classe do exercício deve estar neste pacote.
+  - `n` indica o número do exercício correspondente.
+  - Cada classe do exercício deve estar neste pacote.
 - Nome do pacote: `main`
-    - Contém o menu interativo para testar todos os exercícios da lista.
+  - Contém o menu interativo para testar todos os exercícios da lista.
 - Nome do pacote: `testes`
-    - Contém classes de teste para cada exercicio
+  - Contém classes de teste para cada exercicio
+
 ### Exemplo
 
 ```bash
@@ -64,18 +71,21 @@ Lista1/
 ```
 
 ## Nomenclatura
-| Tipo           | Padrão             | Exemplo                             |
-| -------------- | ------------------ | ----------------------------------- |
-| **Pacotes**    | `lowercase`        | `main`, `entidades`                 |
-| **Classes**    | `PascalCase`       | `Aluno`, `ContaBancaria`            |
-| **Métodos**    | `camelCase`        | `calcularSalario()`, `getSaldo()`   |
-| **Atributos**  | `camelCase`        | `nomeCompleto`, `saldo`             |
-| **Constantes** | `UPPER_SNAKE_CASE` | `TAXA_JUROS`, `LIMITE_SALARIO`      |
+
+| Tipo           | Padrão             | Exemplo                           |
+| -------------- | ------------------ | --------------------------------- |
+| **Pacotes**    | `lowercase`        | `main`, `entidades`               |
+| **Classes**    | `PascalCase`       | `Aluno`, `ContaBancaria`          |
+| **Métodos**    | `camelCase`        | `calcularSalario()`, `getSaldo()` |
+| **Atributos**  | `camelCase`        | `nomeCompleto`, `saldo`           |
+| **Constantes** | `UPPER_SNAKE_CASE` | `TAXA_JUROS`, `LIMITE_SALARIO`    |
 
 ## 🧠 Tecnologias
+
 - Java 21
 - NetBeans 27
 - Java with Ant
 
 ## 👨🏽‍💻 Autor
+
 **Emanuel dos Santos**
