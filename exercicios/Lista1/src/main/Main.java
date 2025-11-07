@@ -30,12 +30,16 @@ public class Main {
             System.out.println("[6] Exercicio 6");
             System.out.println("[7] Exercicio 7");
             System.out.println("[8] Exercicio 8");
+            System.out.println("[9] Exercicio 9");
             System.out.println("[0] Sair");
             System.out.println("-----------------------------------");
             System.out.print("Selecione um exercicio: ");
             opcao = sc.nextInt();
             
             switch (opcao) {
+                case 0:
+                    System.out.println("Saindo...");
+                    break;
                 case 1:
                     Exercicio1 ex1 = new Exercicio1();
                     ex1.testar();
@@ -67,6 +71,10 @@ public class Main {
                 case 8:
                     Exercicio8 ex8 = new Exercicio8();
                     ex8.testar();
+                    break;
+                case 9:
+                    Exercicio9 ex9 = new Exercicio9();
+                    ex9.testar();
                     break;
                 default:
                     System.out.println("Digite um numero valido!");
