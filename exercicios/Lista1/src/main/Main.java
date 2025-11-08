@@ -32,7 +32,7 @@ public class Main {
             System.out.println("[9] Exercicio 9");
             System.out.println("[10] Exercicio 10");
             System.out.println("[11] Exercicio 11");
-            // System.out.println("[12] Exercicio 12");
+            System.out.println("[12] Exercicio 12");
             // System.out.println("[13] Exercicio 13");
             // System.out.println("[14] Exercicio 14");
             System.out.println("[0] Sair");
@@ -88,11 +88,10 @@ public class Main {
                     Exercicio11 ex11 = new Exercicio11();
                     ex11.testar();
                     break;
-
-                // case 12:
-                //     Exercicio12 ex12 = new Exercicio12();
-                //     ex12.testar();
-                //     break;
+                case 12:
+                    Exercicio12 ex12 = new Exercicio12();
+                    ex12.testar();
+                    break;
                 // case 13:
                 //     Exercicio13 ex13 = new Exercicio13();
                 //     ex13.testar();
