@@ -19,8 +19,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int opcao;
-        do
-        {
+        do {
             System.out.println("-----------------------------------");
             System.out.println("[1] Exercicio 1");
             System.out.println("[2] Exercicio 2");
@@ -32,11 +31,15 @@ public class Main {
             System.out.println("[8] Exercicio 8");
             System.out.println("[9] Exercicio 9");
             System.out.println("[10] Exercicio 10");
+            System.out.println("[11] Exercicio 11");
+            // System.out.println("[12] Exercicio 12");
+            // System.out.println("[13] Exercicio 13");
+            // System.out.println("[14] Exercicio 14");
             System.out.println("[0] Sair");
             System.out.println("-----------------------------------");
             System.out.print("Selecione um exercicio: ");
             opcao = sc.nextInt();
-            
+
             switch (opcao) {
                 case 0:
                     System.out.println("Saindo...");
@@ -81,11 +84,27 @@ public class Main {
                     Exercicio10 ex10 = new Exercicio10();
                     ex10.testar();
                     break;
+                case 11:
+                    Exercicio11 ex11 = new Exercicio11();
+                    ex11.testar();
+                    break;
+
+                // case 12:
+                //     Exercicio12 ex12 = new Exercicio12();
+                //     ex12.testar();
+                //     break;
+                // case 13:
+                //     Exercicio13 ex13 = new Exercicio13();
+                //     ex13.testar();
+                //     break;
+                // case 14:
+                //     Exercicio14 ex14 = new Exercicio14();
+                //     ex14.testar();
+                //     break;
                 default:
                     System.out.println("Digite um numero valido!");
             }
         } while (opcao != 0);
     }
-    
-}
 
+}

@@ -17,6 +17,7 @@ public class Retangulo {
     public Retangulo(float lado1, float lado2) {
         this.lado1 = lado1;
         this.lado2 = lado2;
+        // Faz sentido calcular a area e o perimetro tao longo que exista os dois lados do rectangulo
         this.calcularArea();
         this.calcularPerimetro();
     }
