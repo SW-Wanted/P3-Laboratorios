@@ -7,8 +7,9 @@ P3-Laboratorios/
 │
 ├── docs/
 │   ├── listas/
-│   │   ├── lista1.pdf
-│   │   ├── lista2.pdf
+│   │   ├── Lista1.pdf
+│   │   ├── Lista2.pdf
+│   │   └── Lista3.pdf
 │   └── slides/
 │       ├── 1. Introdução POO.pdf
 │       ├── 2. Encapsulamento.pdf
@@ -34,8 +35,14 @@ P3-Laboratorios/
 │   │   ├── exercicio6
 │   │   ├── exercicio7
 │   │   ├── exercicio8
-│   │   └── exercicio9
-│   └── Lista2/
+│   │   ├── exercicio9
+│   │   ├── exercicio10
+│   │   ├── exercicio11
+│   │   ├── exercicio12
+│   │   ├── exercicio13
+│   │   └── exercicio14
+│   ├── Lista2/
+│   └── Lista3/
 │
 └── README.md
 ```
