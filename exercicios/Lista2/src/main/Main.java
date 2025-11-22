@@ -24,6 +24,7 @@ public class Main {
             System.out.println("[1] Exercicio 1");
             System.out.println("[2] Exercicio 2");
             System.out.println("[3] Exercicio 3");
+            System.out.println("[4] Exercicio 4");
             System.out.println("[0] Sair");
             System.out.println("-----------------------------------");
             System.out.print("Selecione um exercicio: ");
@@ -44,6 +45,10 @@ public class Main {
                 case 3:
                     Exercicio3 ex3 = new Exercicio3();
                     ex3.testar();
+                    break;
+                case 4:
+                    Exercicio4 ex4 = new Exercicio4();
+                    ex4.testar();
                     break;
                 default:
                     System.out.println("Digite um numero valido!");
