@@ -46,7 +46,8 @@ P3-Laboratorios/
 │   │   ├── exercicio2
 │   │   ├── exercicio3
 │   │   ├── exercicio4
-│   │   └── exercicio5
+│   │   ├── exercicio5
+│   │   └── exercicio6
 │   └── Lista3/
 │
 └── README.md

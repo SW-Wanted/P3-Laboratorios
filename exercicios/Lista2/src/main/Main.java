@@ -26,37 +26,39 @@ public class Main {
             System.out.println("[3] Exercicio 3");
             System.out.println("[4] Exercicio 4");
             System.out.println("[5] Exercicio 5");
+            System.out.println("[6] Exercicio 6");
             System.out.println("[0] Sair");
             System.out.println("-----------------------------------");
             System.out.print("Selecione um exercicio: ");
             opcao = sc.nextInt();
 
             switch (opcao) {
-                case 0:
-                    System.out.println("Saindo...");
-                    break;
-                case 1:
+                case 0 -> System.out.println("Saindo...");
+                case 1 -> {
                     Exercicio1 ex1 = new Exercicio1();
                     ex1.testar();
-                    break;
-                case 2:
+                }
+                case 2 -> {
                     Exercicio2 ex2 = new Exercicio2();
                     ex2.testar();
-                    break;
-                case 3:
+                }
+                case 3 -> {
                     Exercicio3 ex3 = new Exercicio3();
                     ex3.testar();
-                    break;
-                case 4:
+                }
+                case 4 -> {
                     Exercicio4 ex4 = new Exercicio4();
                     ex4.testar();
-                    break;
-                case 5:
+                }
+                case 5 -> {
                     Exercicio5 ex5 = new Exercicio5();
                     ex5.testar();
-                    break;
-                default:
-                    System.out.println("Digite um numero valido!");
+                }
+                case 6 -> {
+                    Exercicio6 ex6 = new Exercicio6();
+                    ex6.testar();
+                }
+                default -> System.out.println("Digite um numero valido!");
             }
         } while (opcao != 0);
     }

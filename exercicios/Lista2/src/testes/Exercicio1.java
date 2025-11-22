@@ -4,9 +4,7 @@
  */
 package testes;
 
-import exercicios.Pessoa;
-
-
+import exercicio1.Pessoa;
 
 /**
  *
