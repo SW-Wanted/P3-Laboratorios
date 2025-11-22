@@ -43,7 +43,8 @@ P3-Laboratorios/
 │   │   └── exercicio14
 │   ├── Lista2/
 │   │   ├── exercicio1
-│   │   └── exercicio2
+│   │   ├── exercicio2
+│   │   └── exercicio3
 │   └── Lista3/
 │
 └── README.md
