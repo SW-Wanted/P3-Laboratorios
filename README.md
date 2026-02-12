@@ -21,10 +21,6 @@ P3-Laboratorios/
 │       ├── 8. Diagrama de Classes.pdf
 │       └── 9. Collections.pdf
 │
-├── exemplos/
-│   ├── Exemplo01-Override/
-│   └── Exemplo02-Heranca/
-│
 ├── exercicios/
 │   ├── Lista1/
 │   │   ├── exercicio1
